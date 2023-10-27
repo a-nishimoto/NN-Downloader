@@ -2,7 +2,6 @@ from modules import *
 import json
 import os
 from termcolor import colored
-from ctypes import windll
 from time import sleep
 from sys import exit
 import inquirer
@@ -34,7 +33,7 @@ VP   V8P VP   V8P        Y8888D'  `Y88P'   `8b8' `8d8'  VP   V8P Y88888P  `Y88P'
 
 class Main():
     def main_startup():
-        os.system("cls")
+        os.system("clear")
         print(logo)
         print("")
 
@@ -56,12 +55,12 @@ class Main():
             exit(0)
 
         if checkForUpdates == True:
-            os.system("cls")
+            os.system("clear")
             print(logo)
             print("")
             print(colored("Checking for Updates...", "yellow"), end='\r')
             AutoUpdate.Checker()
-            os.system("cls")
+            os.system("clear")
             print(logo)
             print("")
 

@@ -1,0 +1,4 @@
+termcolor
+inquirer
+alive_progress
+xmltodict
