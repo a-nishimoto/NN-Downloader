@@ -1,0 +1,30 @@
+{
+      "version": 1.4,
+      "proxies": true,
+      "checkForUpdates": true,
+      "oneTimeDownload": true,
+      "user_credentials": {
+            "e621": {
+                  "apiUser": "",
+                  "apiKey": ""
+            },
+            "e926": {
+                  "apiUser": "",
+                  "apiKey": ""
+            },
+            "furbooru": {
+                  "apiKey": ""
+            },
+            "github": {
+                  "apiKey": ""
+            }
+      },
+      "blacklisted_tags": [
+            "example1",
+            "example2"
+      ],
+      "blacklisted_formats": [
+            "example1",
+            "example2"
+      ]
+}
